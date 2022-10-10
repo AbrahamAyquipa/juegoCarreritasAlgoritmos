@@ -8,7 +8,6 @@ private:
 	carro** arreglo;
 	carro* ObjCarro;
 	short meta;
-
 public:
 	competencia();
 	~competencia();
@@ -29,6 +28,7 @@ competencia::competencia() {
 		posy += 5;
 	}
 }
+
 competencia::~competencia() {}
 
 void competencia::iniciarCompetencia() {
